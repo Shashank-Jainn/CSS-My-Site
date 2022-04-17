@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/Shashank-Jainn/CSS-My-Site/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
+        rel="stylesheet">
+    <title>Shashank Jain</title>
+</head>
+<body>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud image">
+        <h1>Shashank</h1>
+        <h2>I am a Programmer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud image">
+        <img src="images/mountain.png" alt="mountain image">
+        <div class="mount"></div>
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="general-images image-shank" src="images/shashank-modified.png" alt="Shashank's Image">
+            <h2>Hello.</h2>
+            <p class="profile-p">I want to be a React Developer.<br>And I love to explore <br> new things 🤓.
+            </p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2 id="bord" class="skill">My Skills</h2>
+            <div class="skill-row">
+                <img class="general-images skill-images-1" src="https://codingwithjbvt.files.wordpress.com/2018/06/java-gif.gif?w=244&zoom=2">
+               
+                <h3>Java</h3>
+                <p>I have already learned to code smart in Java and know how to make a Dynamic website in java. Also, I
+                    have completed two projects in java. </p>
+                </br>
+                <br>
+                <br>
+            </div>
+            <div class="skill-row">
+                <img class="general-images skill-images-2" src="https://www.windaydigital.com/wp-content/uploads/2020/12/39998-web-development.gif" alt="chilly image">
+                <h3>Web Development</h3>
+                <p>I have good idea of HTML, CSS, JavaScript, Node.JS andd React Framework.</p>
+            </div>
+        </div>
+    </br>
+        <hr>
+        <div class="contact-me">
+            <h2 id="bord" class="skill">Get In Touch</h2>
+            <p class ="margin-button">For any queries please contact me</p>
+            <a class="btn" href="mailto:shashankjainn1@gmail.com"><strong >CONTACT ME </strong></a>
+        </div>
+    </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/shashank-jain-82764b193/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/shashank_019">Twitter</a>
+        <a class="footer-link" href="https://github.com/Shashank-Jainn">Github</a>
+        <p class="footer-author">© 2021 Shashank Jain.</p>
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</body>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shashank-Jainn/CSS-My-Site/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
