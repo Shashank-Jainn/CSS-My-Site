@@ -1,0 +1,185 @@
+/* ------------------------------------------ tag-selectors ------------------------------------------------ */
+
+* {
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: #74533a;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+    
+    -webkit-box-shadow: 0px 6px 32px 12px white;
+    -moz-box-shadow: 0px 6px 32px 12px white;
+    box-shadow: 0px 6px 32px 12px rgb(74, 71, 71);
+}
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-image: url("images/star.jpg");
+}
+
+h1 {
+    color: #7bb44b;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-weight: normal;
+    color: #7bb44b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;  
+}
+
+h3 {
+    color: #7bb44b;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #EEEEEE;
+    
+}
+
+hr{
+    width: 60%;
+    margin: 80px auto;
+    border-style: dotted;
+    border-width: 5px 0 0;
+    color: #643414;
+}
+
+
+/* ------------------------------------------ class-selectors ------------------------------------------------ */
+.mount{
+    background-color:#643414;
+    padding: 3px 2px;
+    margin-top:-10px;
+    border-radius: 100px;
+}
+.top-container {
+    background-image: url("images/star.jpg");
+    padding-top: 100px;
+    position: relative;
+}
+.skills {
+   margin-bottom:20px;
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+   
+}
+
+.contact-me {
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.middle-container {
+    
+    width: 100%;
+    
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile{
+    width: 100%;
+    margin-top: 20px;
+    line-height: 2;
+   
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.general-images {
+    width: 25%;
+    height: 25%;
+}
+
+.image-shank {
+    width: 200px;
+    height: 190px;
+    border-radius: 100px;
+    margin: 50px auto 10px auto;
+}
+
+.skill-images-1 {
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-images-2 {
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-container {
+    background-image: url("images/star.jpg");
+    padding: 50px;
+    border-color: #643414;
+    border-width: 5px;
+    border-style:solid;
+    border-radius: 100px;
+}
+
+.footer-link {
+    margin: 0 20px;
+}
+
+.footer-author {
+    margin: 40px auto 20px auto;
+    text-shadow: 5px;
+    color: #fff;
+}
+
+.margin-button{
+margin: 0px 0px 50px 0px;
+}
+
+.btn{
+    margin: 50px 0px;
+    border-radius: 10em;
+    background-color: #643414;
+    padding: 10px 20px;
+    color: white;
+}
+.btn:hover{
+    -webkit-box-shadow: 0px 6px 32px 12px white;
+-moz-box-shadow: 0px 6px 32px 12px white;
+box-shadow: 0px 6px 32px 12px white;
+    
+}
+#bord{
+    font-weight: bolder;
+    color:#643414;
+    padding-bottom: 20px;
+    padding-top: -40px;
+}
+
+/* ------------------------------------------ id-selectors ------------------------------------------------ */
