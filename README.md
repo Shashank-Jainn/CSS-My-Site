@@ -1,2 +1,5 @@
 # CSS-My-Site
- first CV website
+ Web-Development
+Following Dr. Angela Yu.
+->About me! 👤
+->Skills: HTML, CSS
